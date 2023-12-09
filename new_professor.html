@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="new_professor.css">
+    <title>New Professor</title>
+</head>
+
+<body>
+
+    <h1>A new professor to snitch on</h1>
+
+    <form id="questionForm">
+        <div class="question">
+            <label for="q1">What is the professor's full name?</label>
+            <input type="text" id="name" placeholder="Name">
+        </div>
+
+        <div class="question">
+            <label for="q2">What course does this professor teach?</label>
+            <select name="q2" id="course_dropdown">
+                <option value="idk">idk</option>
+                <option value="idk">idk</option>
+                <option value="idk">idk</option>
+            </select>
+            <input type="text" id="newFruit" placeholder="Add new course">
+            <button type="button" onclick="addNewFruit()">Add</button>
+        </div>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+</body>
+
+</html>

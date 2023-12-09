@@ -1,0 +1,25 @@
+/* new_professor.css */
+
+h1 {
+  padding: 10%;
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}

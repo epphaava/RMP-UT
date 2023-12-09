@@ -9,7 +9,7 @@ function login() {
     localStorage.setItem('loggedIn', 'true');
     
     // Redirect to the search page after login
-    window.location.href = 'search_page.html';
+    window.location.href = 'snitch.html';
 }
 
 function logout() {
@@ -17,7 +17,7 @@ function logout() {
     localStorage.setItem('loggedIn', 'false');
     
     // Redirect to the main page after logout
-    window.location.href = 'main_page.html';
+    window.location.href = 'main.html';
 }
 
 // Check the login status when the page loads
@@ -34,4 +34,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // if logged in go straight to search, if not go to login
 const snitchButton = document.getElementById('snitch_button');
-snitchButton.href = isLoggedIn() ? 'search_page.html' : 'login.html';
+snitchButton.href = isLoggedIn() ? 'snitch.html' : 'login.html';

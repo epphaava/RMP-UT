@@ -1,0 +1,27 @@
+/* search_styles.css */
+
+.search_container {
+  text-align: center;
+  width: 70%;
+  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+#searchInput {
+  font-size: x-large;
+  height: fit-content;
+}
+
+#searchInput::placeholder {
+  color: #ccc;
+}
+
+#search_button {
+  background-color: transparent;
+  font-size: larger;
+  width: 15%;
+  padding: 15px;
+  border: #ccc solid 1px;
+  align-self: center;
+}

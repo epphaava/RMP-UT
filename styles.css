@@ -1,3 +1,5 @@
+/* styles.css */
+
 * {
   background-color: black;
   color: #fff;
@@ -5,18 +7,18 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #fff;
-    padding-top: 5%;
-    padding-bottom: 4%;  
-    text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 4%;
+  text-align: center;
 }
+
 h1 {
   font-size: 350%;
 }
@@ -25,15 +27,14 @@ h2 {
   font-size: 200%;
 }
 
-
 .button-container {
-  text-align: center; /* Optional: Centers the buttons and text within the container */
+  text-align: center;
 }
 
 .big_button {
   display: inline-block;
   box-sizing: border-box;
-  width: 25%; /* Adjust based on your design */
+  width: 25%;
   height: 15%;
   margin-right: 10px;
   margin-left: 10px;
@@ -52,6 +53,7 @@ h2 {
   align-items: center;
 }
 
+/* Add other common styles here */
 
 /* Optional: Adjust the width for smaller screens */
 @media (max-width: 750px) {
@@ -59,13 +61,6 @@ h2 {
     width: 100%;
     margin-right: 0;
   }
-}
-
-
-.login-container {
-  width: 70%;
-  padding-left: 15%;
-  
 }
 
 .input-field {
@@ -77,52 +72,10 @@ h2 {
   color: #fff;
   box-sizing: border-box;
   display: block;
-
 }
 
 .input-field::placeholder {
-  color: #ccc; /* Adjust the color as needed */  
-}
-
-#login_button {
-  width: 16%; /* Adjust based on your design */
-  height: 10%;
-  margin-left: 42%;
-  background-color: #fff;
-  color: #a259ff;
-  display: inline-block;
-  padding: 10px;
-  font-size: 130%;
-  text-align: center;
-  text-decoration: none;
-
-}
-
-
-.search_container {
-  text-align: center;
-  width:70%;
-  padding-left: 15%;
-  display: flex;
-  justify-content: center;
-}
-
-#searchInput {
-  font-size:x-large;
-  height: fit-content;
-}
-
-#searchInput::placeholder {
-  color: #ccc;  
-}
-
-#search_button {
-  background-color: transparent;
-  font-size: larger;
-  width: 15%;
-  padding: 15px;
-  border: #ccc solid 1px;
-  align-self: center;
+  color: #ccc;
 }
 
 .footer {

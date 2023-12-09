@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snitch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="search_styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>You have chosen to snitch</h1>
+        <h2>Find the teach</h2>
+    </header>
+
+    <div class="search_container">
+        <input type="text" id="searchInput" class="input-field" oninput="getSuggestions(this.value)" placeholder="Who are you looking for?">
+        <button class="big_button" id="search_button">Find</button>
+    </div>
+
+    <div class="footer">
+        <div style="display: block;" id="logged_in_content">
+            <p>You are logged in, the snitching can commence!</p>
+        </div>
+        <a href="main.html">Back to the beginning</a>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
